@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>อิสตันบูล - 10 อันดับจุดหมายปลายทางยอดนิยมของโลก</title>
+<style>
+:root{
+  --olive:#C4D06A;
+  --olive-dark:#6B7A2E;
+  --lime:#DCE8A0;
+  --lime-dark:#7F9A3A;
+  --gold:#E8DE8C;
+  --gold-dark:#8C8226;
+  --text-dark:#41402C;
+  --accent-soft:#F7F8EC;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:linear-gradient(180deg,#FBFBEF,#F3F6E3);
+  min-height:100vh;
+  padding:40px 20px;
+  color:var(--text-dark);
+  font-family:"TH Sarabun New","Sarabun",Tahoma,sans-serif;
+}
+.container{
+  max-width:1000px;
+  margin:0 auto;
+  background:#fff;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 30px 60px -20px rgba(120,130,60,.25),0 18px 36px -18px rgba(90,100,50,.2);
+}
+header{
+  height:340px;
+  background-image:url('img/header.png');
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:flex-end;
+  padding:30px 40px;
+}
+header .brand{
+  color:#fff;
+  font-size:28px;
+  font-weight:600;
+  text-shadow:0 2px 10px rgba(60,70,20,.5);
+}
+.accent-bar{
+  height:6px;
+  background:linear-gradient(90deg,#C4D06A,#DCE8A0,#E8DE8C,#C4D06A,#DCE8A0);
+}
+section{display:flex;flex-wrap:wrap;}
+nav{flex:0 0 220px;}
+nav ul{list-style:none;display:flex;flex-direction:column;}
+nav li a{
+  display:block;
+  width:100%;
+  padding:24px 14px;
+  color:var(--text-dark);
+  text-decoration:none;
+  font-size:14px;
+  font-weight:500;
+  text-align:center;
+  transition:filter .2s;
+}
+nav li a:hover{filter:brightness(1.05);}
+nav li:nth-child(1) a{background:var(--olive);}
+nav li:nth-child(2) a{background:var(--lime);}
+nav li:nth-child(3) a{background:var(--gold);}
+nav li:nth-child(4) a{background:var(--olive);}
+nav li:nth-child(5) a{background:var(--lime);}
+nav li.active a{
+  font-weight:700;
+  box-shadow:inset 0 0 0 3px rgba(255,255,255,.7);
+}
+article{flex:1;min-width:300px;padding:40px;}
+article > .lead{
+  border-radius:15px;
+  background-color:var(--accent-soft);
+  font-size:15px;
+  line-height:1.8;
+  padding:20px;
+  margin-bottom:28px;
+}
+.category h2{
+  border-radius:15px;
+  padding:16px 20px;
+  color:var(--text-dark);
+  font-size:19px;
+  margin-bottom:8px;
+}
+.category .tagline{
+  font-size:14px;
+  margin:8px 4px 16px;
+  line-height:1.6;
+}
+.app-list{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.app-list li{border-radius:12px;padding:14px 18px;line-height:1.7;font-size:15px;}
+.app-list li .app-name{font-weight:700;margin-right:6px;}
+
+.cat-olive h2{background:var(--olive);}
+.cat-olive .tagline{color:var(--olive-dark);}
+.cat-olive .app-list li{background:#F3F6E3;}
+.cat-olive .app-list li .app-name{color:var(--olive-dark);}
+
+.cat-lime h2{background:var(--lime);}
+.cat-lime .tagline{color:var(--lime-dark);}
+.cat-lime .app-list li{background:#F1F6E1;}
+.cat-lime .app-list li .app-name{color:var(--lime-dark);}
+
+.cat-gold h2{background:var(--gold);}
+.cat-gold .tagline{color:var(--gold-dark);}
+.cat-gold .app-list li{background:#FBF8E1;}
+.cat-gold .app-list li .app-name{color:var(--gold-dark);}
+
+footer{
+  text-align:center;
+  padding:24px;
+  background:var(--accent-soft);
+  color:var(--olive-dark);
+  border-top:4px solid var(--olive);
+  font-size:14px;
+  line-height:1.7;
+}
+
+.image-gallery{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+  margin:0 0 28px;
+}
+.image-gallery img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  display:block;
+  border-radius:15px;
+  box-shadow:0 8px 20px rgba(80,90,40,.15);
+}
+@media (max-width:700px){
+  .image-gallery{grid-template-columns:1fr;}
+  .image-gallery img{height:240px;}
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<header></header>
+<section>
+<nav>
+<ul>
+<li class="active"><a href="index.html">อิสตันบูล</a></li>
+<li><a href="page2.html">โรม</a></li>
+<li><a href="page3.html">ลอนดอน</a></li>
+<li><a href="page4.html">ปักกิ่ง</a></li>
+<li><a href="page5.html">ปราก</a></li>
+</ul>
+</nav>
+<article>
+<div class="lead">อันดับที่ 1: เมืองที่มีประชากรมากที่สุดในตุรกี เคยเป็นเมืองหลวงยาวนานถึง 1,610 ปี ภายใต้ชื่อเดิมคอนสแตนติโนเปิล ก่อนย้ายไปอังการา</div>
+<h2>อิสตันบูล (Istanbul)</h2>
+<div class="image-gallery">
+  <img src="img/Hagia Sophia.png" alt="" loading="lazy">
+  <img src="img/Basilica Cistern.png" alt="" loading="lazy">
+</div>
+<div class="category cat-olive" id="dest">
+
+<p class="tagline">ตุรกี</p>
+<ul class="app-list">
+<li><span class="app-name">เอกลักษณ์</span>เป็นเมืองเดียวในโลกที่ตั้งอยู่ควบ 2 ทวีป คือยุโรปและเอเชีย โดยมีช่องแคบบอสฟอรัสคั่นกลาง</li>
+<li><span class="app-name">สถานที่ / กิจกรรมแนะนำ</span>ชมความงามของสุเหร่าสีฟ้า (Sultan Ahmed Mosque) เดินเล่นบนสะพานกาลาตา ชมศิลปวัตถุที่สวนมินิอาเติร์ก และช้อปปิ้งเครื่องเทศกับสินค้าท้องถิ่นที่แกรนด์บาซาร์</li>
+<li><span class="app-name">สถานที่ต้องแวะเพิ่มเติม</span>มหาวิหารฮาเจีย โซเฟีย (Hagia Sophia) สิ่งก่อสร้างทางประวัติศาสตร์ระดับสถาปัตยกรรมสิ่งมหัศจรรย์ของโลก เคยเป็นทั้งโบสถ์คริสต์และมัสยิด และอุโมงค์เก็บน้ำใต้ดินบาซิลิกา (Basilica Cistern) เสาหินโบราณใต้น้ำยุคไบแซนไทน์ บรรยากาศลึกลับและสวยงาม</li>
+<li><span class="app-name">ประสบการณ์แนะนำ</span>ล่องเรือชมวิวช่องแคบบอสฟอรัสเพื่อชมพระอาทิตย์ตกดินระหว่างฝั่งยุโรปและเอเชีย และทดลองเข้าใช้บริการสปาขัดผิวสไตล์ตุรกี (Hamam)</li>
+<li><span class="app-name">ช่วงเวลาที่น่าเที่ยว</span>ช่วงฤดูใบไม้ร่วง (กันยายน – พฤศจิกายน) และฤดูใบไม้ผลิ (เมษายน – พฤษภาคม) เนื่องจากอากาศกำลังสบาย ไม่ร้อนหรือหนาวเกินไป</li>
+</ul>
+</div>
+</article>
+</section>
+<footer><p>จัดทำโดย นายชติกร อังกูรเจริญพร ม.6/1 เลขที่ 4<br>โรงเรียนรัตนราษฏร์บำรุง</p></footer>
+</div>
+</body>
+</html>
